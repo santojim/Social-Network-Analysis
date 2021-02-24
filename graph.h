@@ -104,7 +104,7 @@ struct pair {
 };
 typedef struct pair Pair;
 
-struct resultSet {
+extern struct resultSet {
 
 	struct VQueue *Visited_Queue;
 	struct Cell *Visited_hash;
